@@ -12,6 +12,9 @@ massive(DB_STRING)
     .then((db) => app.set('db', db))
     .catch((err) => console.log(err))
 
+
+    app.get('/api/blogs',)
+
     
 
 
